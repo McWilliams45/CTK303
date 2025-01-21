@@ -5,6 +5,9 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(images/EM.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover:
   }
   
   header {
@@ -15,14 +18,23 @@ body {
 
   
   h1 {
-    font-family: 'Goldman'; 
     font-size: 3rem;
     margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
   
   h2 {
     font-size: 1.5rem;
     margin-top: 0.5rem;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  h4 {
+    text-align: center;
   }
   
   main {
@@ -35,12 +47,12 @@ body {
   
   #about-song .fun-facts ul {
    
-    border: 2px solid #00aaff; /* Border color */
+    border: 2px solid #ff0095; /* Border color */
     border-radius: 15px; /* Rounded corners */
     padding: 1em; /* Space inside the box */
     width: fit-content; /* Adjusts to content width */
     margin: 1em auto; /* Centers the box */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 2px 2px 8px rgba(220, 15, 15, 0.2); 
 
   }
   
@@ -74,6 +86,7 @@ body {
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
+    margin: 0 0.5rem; 
   }
   
   button:hover {
@@ -91,11 +104,10 @@ body {
     color: #ff3366;
     text-decoration: none;
   }
+ 
+  
 
-  .video {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0px;
-    padding: 0px;
-} 
+  
+
+
   
