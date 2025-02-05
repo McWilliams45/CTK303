@@ -1,0 +1,6 @@
+body {
+    background-image: url("images/statue.jpg"); /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}  
