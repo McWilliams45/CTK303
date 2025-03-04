@@ -79,10 +79,10 @@ body {
   }
   
   button {
-    background: #ff3366;
+    background: #cc0033;
     border: none;
     padding: 0.5rem 1rem;
-    color: #222;
+    color: #fff;
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
